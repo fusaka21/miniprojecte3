@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    
+}
+
+header{
+   
+
+}
+
+main{
+    background-image: url(images/fotomain.jpg);
+    height: 700px;
+    width: 100%;
+    
+    
+}
+
+
+footer{
+   
+
+}
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+
+
+   
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    position: absolute;
+    margin: 50px;
+    text-decoration: none;
+}
+
+
+.margen-contenido{
+
+    margin-right: 20%;
+    margin-left: 20%;
+
+    
+}
