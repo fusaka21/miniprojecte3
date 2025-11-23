@@ -18,8 +18,10 @@ main{
 
 .contenido-main{
     display: flex;
-    display: column;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: black 2px solid;
+    gap: 10px;
 }
 
 nav{
@@ -102,4 +104,20 @@ h2{
     border-right: #ffffff 2px solid;
     padding-right: 25px;
     font-weight: 300;
+}
+.about-button{
+    height: auto;
+    width: 150px;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(21, 21, 73);
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.titulo-main{
+    font-size: 50px;
+    color: rgb(21, 21, 73);
+    font-weight: bold;
 }
